@@ -7,6 +7,9 @@ import Service from "./Components/Service";
 import Brands from "./Components/Brands";
 import VideoGallery from "./Components/VideoGallery";
 import Footer from "./Components/Footer";
+import VideoServices from "./Components/Video-prod-services";
+import FeaturedServices from "./Components/FeaturedServices";
+import FounderSection from "./Components/FounderSection";
 
 const App = () => {
   return (
@@ -18,9 +21,12 @@ const App = () => {
               <Navbar />
               <Main />
             </header>
-              <Service />
-              <Brands />
-              <VideoGallery />
+            <Service />
+            <Brands />
+            <VideoGallery />
+            <VideoServices />
+            <FeaturedServices />
+            <FounderSection />
           </Route>
           <Route exact path="/products">
             <Navbar />
